@@ -18,6 +18,8 @@ def first_word(string)
     return string.split[0]
 end
 
-def titleize
-    
+def titleize(string)
+    return string.split.map(&:capitalize)*' '
+end
+
 
